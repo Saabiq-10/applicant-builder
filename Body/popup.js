@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
         results.innerText = "Thinking…";
 
         try {
-          const r = await fetch("http://127.0.0.1:3000/generate", {
+            const API_BASE = "http://127.0.0.1:3000"; // local dev backend
+            const r = await fetch(`${API_BASE}/generate`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ prompt })
