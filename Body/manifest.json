@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Applicant Builder",
+  "version": "1.0",
+  "description": "Suggests hackathons, teams, and courses based on job descriptions.",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "ab_logo16.png",
+      "48": "ab_logo48.png",
+      "128": "ab_logo128.png"
+    }
+  },
+  "icons": {
+    "16": "ab_logo16.png",
+    "48": "ab_logo48.png",
+    "128": "ab_logo128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.linkedin.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

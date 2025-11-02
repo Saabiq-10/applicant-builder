@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+#results {
+  margin-top: 10px;
+}

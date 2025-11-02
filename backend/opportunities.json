@@ -1,0 +1,282 @@
+{
+  "hackathons": [
+    {
+      "name": "Lunaris Hacks",
+      "location": "Toronto Metropolitan University",
+      "dates": "TBA",
+      "url": "https://www.instagram.com/lunarishacks/",
+      "tags": ["software", "code"]
+    },
+    {
+      "name": "GenaAI Genesis",
+      "location": "University of Toronto Myhal Center",
+      "dates": "Potential: March 21-23",
+      "deadline": "Potential: March 11",
+      "url": "https://genaigenesis.ca/",
+      "tags": ["ai", "software"]
+    },
+    {
+      "name": "TerraHacks",
+      "location": "Toronto Metropolitan University",
+      "dates": "Potential: Aug 2 - Aug 4",
+      "url": "https://terrahacks.ca/",
+      "tags": ["software"]
+    },
+    {
+      "name": "Hack the North",
+      "location": "University of Waterloo",
+      "dates": "Potential: Sept 15 - Sept 17",
+      "url": "https://hackthenorth.com/",
+      "tags": ["software"]
+    },
+    {
+      "name": "Hack the Valley",
+      "location": "University of Toronto Scarborough",
+      "dates": "Potential: Oct 13 - Oct 15",
+      "url": "https://hackthevalley.com/",
+      "tags": ["software"]
+    },
+    {
+      "name": "Hack the Future",
+      "location": "Virtual",
+      "dates": "Potential: Nov 3 - Nov 5",
+      "url": "https://hackthefuture.ca/",
+      "tags": ["software"]
+    }
+  ],
+    "student_teams": [
+    {
+      "name": "MetRocketry",
+      "description": "Rocket club",
+      "url": "https://docs.google.com/forms/d/13p2LR8MeRGA3_350NmKC0Icp9Ytnc36lVtnvJjyrR2A/viewform?edit_requested=true",
+      "tags": ["aerospace", "mechanical", "rockets", "CAD"],
+      "subteams": [
+    {
+      "name": "Launch Vehicle",
+      "focus": "Design and development of the rocket body, aerostructures, and recovery systems including parachute deployment.",
+      "tags": ["aerostructures", "recovery", "rocket design", "airframe", "mechanical"]
+    },
+    {
+      "name": "Avionics",
+      "focus": "Development of onboard and ground electronics systems, including sensors, telemetry, and CAD for electronics housing.",
+      "tags": ["electronics", "avionics", "telemetry", "sensors", "ground station", "CAD", "embedded systems"]
+    },
+    {
+      "name": "Payload",
+      "focus": "Design and integration of scientific payloads such as rovers, cameras, and gimbals for mission experimentation.",
+      "tags": ["payload", "gimbal", "camera", "rover", "integration", "mechanical", "mechatronics"]
+    },
+    {
+      "name": "Propulsion",
+      "focus": "Development and testing of propulsion systems including combustion chambers, propellant selection, test stands, and ground support equipment.",
+      "tags": ["propulsion", "combustion", "propellant", "test stand", "GSE", "thermodynamics", "fluid dynamics", "mechanical"]
+    }
+      ]
+    },
+    {
+      "name": "MARS Competition",
+      "description": "Hands-on rocket design and launch competition focused on avionics, embedded systems, and aerospace engineering. Participants work on miniaturized rockets with custom flight computers and telemetry systems.",
+      "url": "https://marstmu.com/MARS-Competition/links-and-resources/",
+      "subteams": [
+    { "name": "Avionics", "focus": "Avionics systems development" },
+    { "name": "Embedded Systems", "focus": "Embedded computing for flight systems" },
+    { "name": "Ground Station", "focus": "Telemetry and ground communication" }
+        ],
+      "tags": [
+        "aerospace", "mechanical", "rocket", "embedded systems", "avionics",
+        "PCB design", "KiCad", "Arduino", "Teensy", "Raspberry Pi", "IMU", 
+        "telemetry", "soldering", "linux", "github", "python", "microcontrollers"
+        ]
+    },
+    {
+      "name": "Toronto Autonomous Systems Collective",
+      "url": "https://www.notion.so/TASC-Communication-Board-26358ba9cfe54cf88bee655304323e80",  
+      "description": "A multidisciplinary student engineering team designing and building an autonomous rover. The team integrates mechanical, electrical, and software systems to develop terrain-capable platforms. Subteams focus on mechanical CAD (SolidWorks, Fusion 360, Onshape, AutoCAD), power and energy systems (battery management, PCB design), drivetrain and mobility (suspension systems, traction, motor selection), autonomous navigation (ROS2, GPS, IMU, computer vision), and robotic arm dynamics. The project emphasizes real-world reliability, safety, and systems integration, aligning closely with engineering roles in the automotive and robotics industries.",
+      "tags": [
+        "CAD", "SolidWorks", "Fusion 360", "AutoCAD",
+        "mechanical design", "robotics", "systems engineering",
+        "embedded systems", "autonomous vehicles", "simulation",
+        "suspension", "sensor fusion", "ROS", "Jetson", "PCB design",
+        "battery systems", "robotic arm", "Python"
+      ],
+      "subteams": [
+        {
+          "name": "Mechanical Team",
+          "focus": "CAD design, structural design, suspension systems, SolidWorks, AutoCAD"
+        },
+        {
+          "name": "Power Systems",
+          "focus": "Battery integration, custom PCBs, BMS, electronics safety"
+        },
+        {
+          "name": "Arm Dynamics",
+          "focus": "Robotic manipulators, claw/wrist/base, mechatronics"
+        },
+        {
+          "name": "Autonomous Navigation",
+          "focus": "ROS2, GPS/IMU, computer vision, sensor fusion"
+        },
+        {
+          "name": "Communications & Controls",
+          "focus": "Navigation algorithms, simulation, controller integration, Python"
+        }
+      ]
+    },
+    {
+      "name": "MET First Create",
+      "description": "Introductory robotics club where students learn CAD, coding, and 3D printing. Provides hands-on experience with wiring, circuits, and microcontrollers.",
+      "url": "https://www.instagram.com/metfirstscreate/", 
+      "tags": [
+        "robotics", "CAD", "3D printing", "coding", "circuits", 
+        "wiring", "microcontrollers", "arduino", "hands-on", 
+        "beginner-friendly", "electronics", "engineering fundamentals" , 
+        "robots", "robotics", "electrical", "mechanical", "mechatronics" 
+      ]
+     },
+      {
+      "name": "TMU BAJA Racing",
+      "description": "Designs, builds, and races an off-road vehicle in the SAE Baja competition. Students work on real-world automotive engineering challenges across multiple subteams, from powertrain to chassis to electrical systems.",
+      "url": "https://www.instagram.com/torontometbaja/?hl=en",
+      "tags": [
+        "automotive", "mechanical", "off-road", "vehicle dynamics", 
+        "powertrain", "engine", "transmission", "suspension", 
+        "chassis design", "welding", "fabrication", "ergonomics", 
+        "driver safety", "electronics", "circuits", "telemetry", 
+        "sensors", "controls", "hands-on", "engineering design"
+      ],
+      "subteams": [
+        {
+          "name": "Electrical",
+          "focus": "Vehicle electronics, sensors, telemetry systems, and power distribution."
+        },
+        {
+          "name": "Powertrain",
+          "focus": "Engine design, fuel systems, and transmission for peak performance and reliability."
+        },
+        {
+          "name": "Chassis",
+          "focus": "Frame design using steel and aluminum for safety, rigidity, and durability."
+        },
+        {
+          "name": "Vehicle Dynamics",
+          "focus": "Suspension, shock tuning, and geometry optimization for terrain handling and ride quality."
+        },
+        {
+          "name": "Human Factors",
+          "focus": "Driver ergonomics, seating, controls, and overall safety for sustained race performance."
+        },
+        {
+          "name": "Welding & Operations",
+          "focus": "Precision welding for chassis and mounts using MIG, TIG, and stick techniques."
+        }
+      ]
+    },
+    {
+      "name": "Toronto Metropolitan Algorithms and Coding Club (TMACC)",
+      "description": "A student-run club focused on solving mathematical and algorithmic problems to improve coding and problem-solving skills. Formerly known as Ryerson CPC, TMACC fosters development in data structures, algorithms, and competitive programming.",
+      "url": "https://www.instagram.com/tmu_acc/?hl=en",
+      "tags": [
+        "software", "coding", "algorithms", "data structures", 
+        "competitive programming", "problem solving", "graph theory", 
+        "C++", "Java", "Python", "Rust", "JavaScript", "APL", 
+        "computer graphics"
+      ],
+      "subteams": [
+        {
+          "name": "Data Structures & Algorithms",
+          "focus": "Focuses on core algorithmic and computational problem solving."
+        },
+        {
+          "name": "Programming Languages",
+          "focus": "Discussion and learning across C++, Python, Java, Rust, APL, and JavaScript."
+        },
+        {
+          "name": "Graph Theory",
+          "focus": "Solving problems related to networks, paths, and graphs."
+        },
+        {
+          "name": "Computer Graphics",
+          "focus": "Explores rendering techniques and visual computation."
+        }
+      ]
+    },
+    {
+      "name": "Toronto Met Formula Racing",
+      "description": "A student engineering team that designs, builds, and races a Formula-style electric vehicle, sponsored in part by Tesla. The team focuses on areas such as electric powertrains, aerodynamics, and vehicle dynamics, with hands-on experience in CAD, welding, and manufacturing.",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdqvqRKIamu5Db18YcUCPBKdylelJBsvXn7MIMMExpfJTpe6w/viewform",
+      "tags": [
+        "mechanical", "automotive", "electric vehicles", 
+        "CAD", "welding", "aerodynamics", "vehicle dynamics", 
+        "powertrain", "manufacturing"
+      ],
+      "subteams": [
+        {
+          "name": "Electric Powertrain",
+          "focus": "Develops and integrates the electric battery and motor systems, including drivetrain optimization."
+        },
+        {
+          "name": "Aerodynamics",
+          "focus": "Designs aerodynamic elements like wings and undertrays using simulations and wind tunnel testing."
+        },
+        {
+          "name": "Vehicle Dynamics",
+          "focus": "Optimizes suspension, steering, and handling for maximum performance on track."
+        },
+        {
+          "name": "Chassis & Manufacturing",
+          "focus": "Handles frame design, welding, and overall structural integrity of the vehicle using CAD and fabrication tools."
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "name": "Using Python for Research",
+      "url": "https://www.edx.org/learn/python/harvard-university-using-python-for-research",
+      "tags": ["python", "research", "scientific", "data-analysis"],
+      "description": "This course bridges the gap between introductory and advanced Python, teaching how to apply Python 3 in research settings. You'll review the basics, then explore tools like NumPy and SciPy for scientific computing, and apply them through case studies. Also includes a new module on machine learning."
+    },
+    {
+      "name": "CS50’s Introduction to Programming with Python",
+      "url": "https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python",
+      "tags": ["python", "software"],
+      "description": "An introduction to programming using Python. Covers functions, arguments, return values, variables, types, conditionals, loops, objects, methods, file I/O, and libraries. Designed for students with or without prior experience."
+    },
+    {
+      "name": "CS50’s Introduction to Artificial Intelligence with Python",
+      "url": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python",
+      "tags": ["ai python", "software"],
+      "description": "An introduction to the concepts and algorithms at the foundation of modern AI, including search algorithms, knowledge representation, and machine learning. The course is designed for students with a solid understanding of Python."
+    },
+    {
+      "name": "CS50’s Web Programming with Python and JavaScript",
+      "url": "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript",
+      "tags": ["web-development", "python", "javascript"],
+      "description": "A deep dive into web programming using Python and JavaScript. Covers front-end and back-end development, including HTML, CSS, Flask, Django, and SQL. Assumes prior knowledge of CS50 or equivalent experience."
+    },
+    {
+      "name": "CS50’s Computer Science for Business Professionals",
+      "url": "https://www.edx.org/course/cs50s-computer-science-for-business-professionals",
+      "tags": ["business", "software"],
+      "description": "Designed for business professionals, this course covers the fundamentals of computer science and programming. It focuses on how technology can be leveraged in business contexts."
+    },
+    {
+      "name": "CS50’s Computer Science for Lawyers",
+      "url": "https://www.edx.org/course/cs50s-computer-science-for-lawyers",
+      "tags": ["law", "software"],
+      "description": "A course tailored for legal professionals, covering the basics of computer science and programming. It focuses on how technology intersects with the legal field."
+    },
+    {
+      "name": "CS50’s Introduction to Computer Science",
+      "url": "https://www.edx.org/course/cs50s-introduction-to-computer-science",
+      "tags": ["computer-science", "software"],
+      "description": "An entry-level course that teaches the fundamentals of computer science and programming. Covers algorithms, data structures, software engineering, and web development."
+    },
+    {
+      "name": "CS50’s Mobile App Development with React Native",
+      "url": "https://www.edx.org/course/cs50s-mobile-app-development-with-react-native",
+      "tags": ["mobile-development", "react-native", "software"],
+      "description": "A comprehensive course on mobile app development using React Native. Covers both iOS and Android platforms, focusing on building cross-platform applications."
+    }
+  ]
+}
