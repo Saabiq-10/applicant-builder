@@ -148,7 +148,7 @@ Step 1. Edit `backend/opportunities.json`
   * `name`, `description`, `tags`, `url`, etc.
   * Subteams should list focus areas, tools used, and what you do there.
 * Replace TMU clubs with your own clubs.
-* Replace Discord links with public links you are comfortable sharing.
+* Replace links with public links you are comfortable sharing, e.g. instagram, linktree.
 
 Step 2. Generate fresh embeddings
 Run:
